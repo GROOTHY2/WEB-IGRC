@@ -97,7 +97,7 @@ iframe{
 .qoute{
     font-family:'Times New Roman', Times, serif;
     position: absolute;
-    bottom: 35%;
+    bottom: 20%;
     margin-left: 30px;
     text-align: center;
     color: aliceblue
@@ -115,4 +115,8 @@ iframe{
 p{
     margin-top: 10px;
     font-size: 30px;
+}
+
+.read{
+    margin-top: 10px;
 }
