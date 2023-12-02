@@ -67,43 +67,21 @@ button:hover{
 }
 
 .main{
-    margin-top: 50px;
-    margin-left: 55%;
-    margin-right: 5%;
+    display: flex;
     align-items: center;
-}
-
-h1{
-    color: white;   
-    font-size: 30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 30px;
-    text-align: center;
-}
-span{
-    color: orangered;
-}
-
-iframe{
-    width: 100%;
-    height: 400px;
-    border:0;
-    border-radius: 20px;
-    padding: 10px;
-    background-color:gray ;
-    position: relative;
+    justify-content: space-between;
+    padding: 70px;
 }
 
 .qoute{
     font-family:'Times New Roman', Times, serif;
-    position: absolute;
-    bottom: 20%;
-    margin-left: 30px;
     text-align: center;
-    color: aliceblue
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
-.qoute h2{
+.qoute h1{
     font-size: 35px;   
 }
 
@@ -119,4 +97,26 @@ p{
 
 .read{
     margin-top: 10px;
+} 
+
+
+h2{
+    color: white;   
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 30px;
 }
+span{
+    color: orangered;
+}
+
+iframe{
+    width: 100%;
+    height: 350px;
+    border:0;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: greenyellow;
+}
+
